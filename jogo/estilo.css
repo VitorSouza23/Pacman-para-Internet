@@ -1,0 +1,70 @@
+body{ 
+    background-color: #3e3e80;
+    text-align: center; 
+    background-image: url(icons/planoDeFundo.jpg);
+    background-position: right;
+    
+}
+
+#tela{
+    background-color: black;
+    border: 1px solid #1d00f8;
+}
+
+button{
+    background-color: #2929aa;
+    color: #fff;
+    border: 3px solid #1c901c;
+    width: 300px;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3333e8;
+}
+
+button:disabled{
+    background-color: #7376d0;
+    cursor: not-allowed;
+}
+
+#placar{
+    background-color: black;
+    border: 1px solid #1d00f8;
+    height: 65px;
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left;
+    font-size: 20px;
+    font-family: "verdana";
+    
+    
+   
+}
+h6{
+    margin-top: 0px;
+}
+div.informacoes{
+    color: white;
+    background-color: #2d2df8;
+    color: #e1f408;
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    
+}
+#titulo{
+    color: #e1f408;
+    font-size: 50px;
+    background-color: #2d2df8;
+    width: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+#levels{
+    font-size: 25px;
+}

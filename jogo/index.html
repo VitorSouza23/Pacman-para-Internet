@@ -1,0 +1,81 @@
+﻿<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pac-man Who</title>
+        <link rel='shortcut icon' href="icons/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="estilo.css">
+        <script src="cenarioCriado2.js"></script>
+        <script src="configPacman.js"></script>
+        <script src="Ghost.js"></script>
+        
+        
+    </head>
+    <body >
+        <div id="titulo">
+            <p>Pac-man Who?</p>
+            <p id="levels">Clique em Iniciar!</p>
+        </div>
+         <div>
+            <button onclick="pausar();" id="btPausa">Iniciar</button>
+            <button onclick="novoJogo();" id="btNovo">Novo Jogo</button>
+            <button onclick="informarControlesDoJogo();" id="btControles">Controles do Jogo</button> 
+        </div>
+        <div>
+            <canvas id = "tela" width=800 height="300">Navegador não suportado!</canvas>
+        </div>
+        <div id="placar">
+            <h6 style="color:white" id="pontosGanhos">Placar: 0</h6>
+            <h6 style="color:white" id="vidas"> Vidas: 12º Doutor</h6>
+            
+        </div>
+        <div class="informacoes">
+            <p>Instituto Federal de Santa Catarina - Câmpus Lages</p>
+            <p>Curso Técnico em Informática - Módulo IV</p>
+            <p>Programação para Internet</p>
+            <p>Vitor de Souza</p>
+        </div>
+        <audio  id="pop">
+            <source src="snd/pop.mp_" type="audio/mpeg">
+            <source src="snd/pop.ogg" type="audio/ogg">
+            
+        </audio>
+        <audio  id="takeOff">
+            <source src="snd/takeOff.mp_" type="audio/mpeg">
+            <source src="snd/takeOff.ogg" type="audio/ogg">
+            
+        </audio>
+        <audio  id="musicaTema">
+            <source  src="musicas/imthedoctor.ogg" type="audio/ogg">
+            <source  src="musicas/imthedoctor.mp_" type="audio/mpeg">
+        </audio>
+        
+        <audio   id="exterminate">
+            <source  src="snd/exterminate.ogg" type="audio/ogg">
+            <source  src="snd/exterminate.mp_" type="audio/mpeg">
+        </audio>
+        <audio   id="comerPoder">
+            <source  src="snd/efeitoComerPoder.ogg" type="audio/ogg">
+            <source  src="snd/efeitoComerPoder.mp_" type="audio/mpeg">
+        </audio>
+        <audio   id="somDevorarFantasma">
+            <source  src="snd/somDevorarFantasma.ogg" type="audio/ogg">
+            <source  src="snd/somDevorarFantasma.mp_" type="audio/mpeg">
+        </audio>
+        <audio   id="somPacmanMorreu">
+            <source  src="snd/somPacmanMorreu.ogg" type="audio/ogg">
+            <source  src="snd/somPacmanMorreu.mp_" type="audio/mpeg">
+        </audio>
+        <audio   id="levelUp">
+            <source  src="snd/levelUp.ogg" type="audio/ogg">
+            <source  src="snd/levelUp.mp_" type="audio/mpeg">
+        </audio>
+        <audio   id="somVoceVenceu">
+            <source  src="musicas/somVoceGanhou.ogg" type="audio/ogg">
+            <source  src="musicas/somVoceGanhou.mp_" type="audio/mpeg">
+        </audio>
+        
+        <script  src="pacman.js"></script>
+    </body>
+</html>
+
